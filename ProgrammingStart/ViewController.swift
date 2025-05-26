@@ -8,16 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+  override func viewDidLoad() {
+    super.viewDidLoad()
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        let uiView=UIView()
-        uiView.frame=CGRect(x: 50, y: 100, width: 100, height: 100)
-        uiView.backgroundColor=UIColor.systemBlue
-        view.addSubview(uiView)
-    }
-
-
+    let size = view.frame.size
+    let uiView = UIView()
+    uiView.frame.size = CGSize(width: 100, height: 100)
+    uiView.center = CGPoint(x: size.width / 2, y: size.height / 2)
+    uiView.backgroundColor = UIColor.systemBlue
+    view.addSubview(uiView)
+  }
 }
-

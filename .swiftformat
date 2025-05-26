@@ -1,0 +1,11 @@
+--swiftversion 5
+--typeblanklines remove
+--nospaceoperators
+--indent 2
+--semicolons never
+--wraparguments beforefirst
+--wrapparameters beforefirst
+--allman false
+--patternlet inline
+--modifierorder public, open, private, fileprivate, internal, static, final, class, override, required, convenience, lazy, dynamic, weak, unowned
+--disable emptybraces, hoistpatternlet, linebreaks, preferkeypath, redundantreturn, spaceinsideparens, trailingcommas, trailingclosures, trailingspace
